@@ -8,7 +8,7 @@ let mensagens = [];
 let usuarios = {};
 
 app.get('/', function(req, res){
-res.send('server is running');
+    
 });
 
 io.on("connection", (client)=>{
